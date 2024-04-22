@@ -16,7 +16,7 @@ public class App {
         boolean ordenado = false;// esto evita la compararacion de elemneto innecesarios
         for (int i = 0; i < numeros.length && !ordenado; i++) {
             // si el paso siguiente ya esta ordenado este deja de
-            // hacer iteracion que no es necesaria
+            // hacer iteracion que no es necesaria wqs
             ordenado = true;
             for (int j = 0; j < numeros.length - i - 1; j++) {
                 if (numeros[j] > numeros[j + 1]) {
